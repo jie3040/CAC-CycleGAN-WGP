@@ -20,3 +20,4 @@ The codes was tested with tensorflow 2.10.0, CUDA driver 12.7, CUDA toolkit 11.8
 ```
 python CAC_CycleGAN_WGP.py
 ```
+The dataset has been convert to fresuency domain by FFT and each sample contains 512 points.
