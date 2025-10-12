@@ -154,7 +154,7 @@ def prepro(d_path, length=864, number=1000, normal=True, rate=[0.5, 0.25, 0.25],
 
 
 if __name__ == "__main__":
-    path='/home/liaowenjie/anaconda3/myfolder/GAN_for_UFD_new/dataset_old/'
+    path='/dataset/'
     train_X, train_Y, valid_X, valid_Y, test_X, test_Y = prepro(d_path=path,
                                                                 length=1024,
                                                                 number=2000,
